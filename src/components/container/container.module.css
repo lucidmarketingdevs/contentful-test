@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  max-width: 1232px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.containerFlex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 1024px) {    
+  .container {
+    padding: 0 2rem;
+  }
+}

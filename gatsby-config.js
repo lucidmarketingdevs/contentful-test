@@ -25,9 +25,10 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Contentful starter',
+    title: 'Lucidspark Blog',
+    postsPerPage: 5,
   },
-  pathPrefix: '/gatsby-contentful-starter',
+  pathPrefix: '/blog',
   plugins: [
     'gatsby-transformer-remark',
     'gatsby-transformer-sharp',
