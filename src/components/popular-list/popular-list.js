@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link, useStaticQuery } from 'gatsby'
+import { Link, useStaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import styles from './popular-list.module.css'
