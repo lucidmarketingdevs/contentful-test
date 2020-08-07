@@ -1,0 +1,32 @@
+.preview {
+  flex: 0 1 100%;
+  background: #FFFFFF;
+  margin-bottom: 2rem;
+}
+
+.previewContent {
+  padding: 2rem;
+}
+
+.previewTitleLink {
+  text-decoration: none;
+}
+
+.previewTitle {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+}
+
+.previewAuthor {
+  font-size: 0.9rem;
+}
+
+.previewLink {
+  text-decoration: none;
+  color: red;
+}
+
+.previewLink:hover {
+  color: inherit;
+  font-size: 
+}

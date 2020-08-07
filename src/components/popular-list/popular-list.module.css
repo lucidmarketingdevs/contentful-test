@@ -1,0 +1,20 @@
+.popularTitle {
+  font-size: 2rem;
+  margin: 0 0 1rem 0;
+}
+
+.popularEntry {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.popularEntry:last-child {
+  border: 0;
+}
+
+.popularLink {
+  text-decoration: none;
+}
+
+.popularLink:hover {
+  color: red;
+}

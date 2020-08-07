@@ -1,0 +1,106 @@
+.footerTop {
+  padding: 2rem 0;
+  background: white;
+}
+
+.footerLinksWrap {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.footerLinkSection {
+  flex: 0 1 50%;
+  margin-bottom: 2rem;
+}
+
+.linkSectionTitle {
+  margin: 0 0 1rem 0;
+}
+
+.footerLink {
+  display: block;
+  text-decoration: none;
+  font-size: 1rem;
+  margin-right: 1rem;
+}
+
+.footerBottom {
+  background: #F2F3F5;
+  padding: 1rem 0;
+}
+
+.footerBottomLeft {
+  flex: 0 1 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.footerBottomRight {
+  flex: 0 1 100%;
+  justify-content: flex-end;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.socialLinks {
+  flex: 0 1 215px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  margin-right: 2.5rem;
+}
+
+.socialImg {
+  height: 40px;
+}
+
+.appLinkWrap {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.appLink {
+  display: inline-block;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  max-width: 140px;
+}
+
+.appLink:last-child {
+  margin: 0;
+}
+
+.appLinkImg {
+  height: 40px;
+}
+
+@media (min-width: 500px) {    
+  .footerLinkSection {
+    flex: 0 1 33%;
+  }
+}
+
+@media (min-width: 768px) {    
+  .footerBottomLeft {
+    flex: 0 1 40%;
+  }
+
+  .footerBottomRight {
+    flex: 0 1 60%;
+  }
+
+  .appLink {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1024px) {    
+  .footerLinkSection {
+    flex: 0 1 20%;
+    margin-bottom: 0;
+  }
+}

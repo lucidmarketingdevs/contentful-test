@@ -1,0 +1,19 @@
+.contentWrap {
+  margin-top: 113px;
+  padding: 3rem 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+@media (min-width: 500px) {    
+  .contentWrap {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 768px) {    
+  .contentWrap {
+    margin-top: 113px;
+  }
+}

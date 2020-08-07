@@ -1,0 +1,20 @@
+.pagination {
+  margin-top: 3rem;
+  background: #FFFFFF;
+  width: 100%;
+  padding: 0.5rem;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginationItem {
+  flex: 0 1 30px;
+  padding: 0 15px;
+  text-decoration: none;
+}
+
+.paginationItemActive {
+  font-weight: bold;
+}

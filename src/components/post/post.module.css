@@ -1,0 +1,18 @@
+.post {
+  flex: 0 1 65.5%;
+  background: #FFFFFF;
+}
+
+.postContent {
+  width: 100%;
+  max-width: 600px;
+  padding: 3rem;
+}
+
+.postTitle {
+  margin: 0 0 1rem 0;
+}
+
+.postAuthor {
+  font-size: 0.9rem;
+}

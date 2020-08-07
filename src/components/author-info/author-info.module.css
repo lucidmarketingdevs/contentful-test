@@ -1,0 +1,26 @@
+.authorInfo {
+  padding: 2rem;
+  border-top: 1px solid #3d475280;
+}
+
+.authorInfoTitle {
+  margin-top: 0;
+  font-size: 1.5rem;
+}
+
+.authorInfoWrap {
+  display: flex;
+  justify-content: space-between;
+  max-width: 500px;
+}
+
+.authorImage {
+  flex: 1 0 105px;
+  width: 105px;
+  height: 105px;
+  margin-right: 2rem;
+}
+
+.authorBio {
+  flex: 0 1;
+}
